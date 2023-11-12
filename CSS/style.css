@@ -1,0 +1,53 @@
+/*@mixin text-styling($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }*/
+html, body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.body {
+  background-color: #202020;
+}
+
+.container {
+  background-color: #3498db;
+}
+
+.nav-header {
+  position: relative;
+}
+
+.nav-brand {
+  top: 20px;
+  position: relative;
+  padding-left: 36px;
+  font-size: 20px;
+  color: #fff;
+  min-height: 50px;
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.nav-toggle {
+  position: absolute;
+  right: 20px;
+  top: 31px;
+}
+
+.navbar-redirect {
+  position: relative;
+  top: -25px;
+  left: 160px;
+}
+
+.navCenter-line {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
