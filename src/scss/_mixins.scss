@@ -7,3 +7,10 @@
     border: none;
     cursor: pointer;
   }*/
+
+  @mixin float-left{
+    float: left;
+  }
+  @mixin float-rigth{
+    float: right;
+  }

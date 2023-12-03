@@ -1,42 +1,60 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <title>Diário de Obra</title>
-    <link href="./CSS/style.css" type="text/css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConstTracker</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="body">
-    
-    <script type="text/javascript" src="javascript/script.js"></script>
-    
-    <div id="main">
-        <div class="navbar fixed top">
-            <nav role="navigation" aria-label="Top Level">
-                <div class="container">
-                    <div class="nav-header">
-                        <a class="nav-brand" href="">
-                            <span>ConstTracker</span>
-                        </a>
-                    </div>
-                    <button class="nav-toggle"></button>
-                    <div class="navbar-redirect">
-                        <ul class="navCenter-line">
-                            <li>
-                                <a id="nav-devs" href="">Devs</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Seção 1</a></li>
+            <li><a href="#section2">Seção 2</a></li>
+            <li><a href="#section3">Seção 3</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Download ConstTracker</h1>
+    </header>
+    <div class="main-section">
+
+        <h1 class="main-text">Use ConstTracker</h1>
+
+        <div class="main-button">
+            <button href="#" class="download-button">Download Now</button>
         </div>
-    </div>    
-    
-    <div class="image"></div>
+        <img class="main-img" src="./png/Icones/elefante.png" alt="Download Imagem">
+    </div>
+        
+    <main>
+        <section id="section1" class="section-txt-left">
+            <img class="first-img" src="./png/Icones/guindaste.png" alt="first image">
+            <div class="text">
+                <h2>Seção 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </section>
+        <section id="section2" class="section-txt-rigth">
+            
+            <div class="text">
+                <h2>Seção 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
 
+            <img class="second-img" src="./png/Icones/em-construcao.png" alt="second image">
 
+        </section>
+        <section id="section3" class="section-txt-left">
+            <img class="third-img" src="./png/Icones/projeto.png" alt="third image">
+            <div class="text">
+                <h2>Seção 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ConstTracker. Todos os direitos reservados.</p>
+    </footer>
 </body>
-
 </html>
