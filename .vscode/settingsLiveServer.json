@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.multiRootWorkspace": true,
+    "liveServer.settings.root": "Projeto_EngenhariaDeSoftware/Diario_de_Obra/src/index.html",
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "--disable-web-security"
+  }
+  

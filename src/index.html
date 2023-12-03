@@ -1,60 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConstTracker</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styleIndex.css">
 </head>
 <body>
-    <nav>
+
+    <nav class="main-nav-bar">
         <ul>
+            <li><img class="main-icon" src="./png/Icones/capacete.png" alt=""></li>
+            <li><a href=""><span>ConstTracker</span></a></li>
             <li><a href="#section1">Seção 1</a></li>
             <li><a href="#section2">Seção 2</a></li>
             <li><a href="#section3">Seção 3</a></li>
         </ul>
     </nav>
     <header>
-        <h1>Download ConstTracker</h1>
+        <h1>Meus contratos</h1>
     </header>
-    <div class="main-section">
 
-        <h1 class="main-text">Use ConstTracker</h1>
 
-        <div class="main-button">
-            <button href="#" class="download-button">Download Now</button>
-        </div>
-        <img class="main-img" src="./png/Icones/elefante.png" alt="Download Imagem">
-    </div>
-        
-    <main>
-        <section id="section1" class="section-txt-left">
-            <img class="first-img" src="./png/Icones/guindaste.png" alt="first image">
-            <div class="text">
-                <h2>Seção 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </section>
-        <section id="section2" class="section-txt-rigth">
-            
-            <div class="text">
-                <h2>Seção 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-
-            <img class="second-img" src="./png/Icones/em-construcao.png" alt="second image">
-
-        </section>
-        <section id="section3" class="section-txt-left">
-            <img class="third-img" src="./png/Icones/projeto.png" alt="third image">
-            <div class="text">
-                <h2>Seção 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 ConstTracker. Todos os direitos reservados.</p>
-    </footer>
+    <table border="1">
+    <form>
+        <tr><td rowspan="4" width="1000"><input type="file" id="file"></td></tr>
+        <tr><td>N° RDO: <input type="text"></td></tr>
+        <tr><td marg>Contrato:<input type="text"></td></tr>
+        <tr><td>Prazo contratual:<input type="text"></td></tr>
+        <tr><td align="center" rowspan="6"><h1>Relatório Diário de Obra (RDO)</h1></td></tr>
+        <tr><td>Prazo decorrido:<input type="text"></td></tr>
+        <tr><td>Prazo a vencer:<input type="text"></td></tr>
+        <tr><td>Data:<input type="text"></td></tr>
+    </form>
+    </table>
 </body>
 </html>

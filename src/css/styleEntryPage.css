@@ -66,11 +66,15 @@ main {
 }
 
 #section1 {
-  background-color: red;
+  background-color: #007acc;
+}
+
+#section2 {
+  background-color: #2b5774;
 }
 
 #section3 {
-  background-color: red;
+  background-color: #007acc;
 }
 
 .section-txt-rigth {
@@ -84,6 +88,25 @@ main {
   max-width: 40%;
 }
 
+#section4 {
+  background-color: #2b5774;
+  text-align: center;
+}
+
+#section4-txt-h2 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.link-section4 {
+  padding: 5px;
+}
+
+.button-section4 {
+  padding: 5px;
+}
+
 .main-section {
   display: flex;
   position: relative;
@@ -94,17 +117,55 @@ main {
   padding: 20px;
 }
 
+.main-nav-bar {
+  height: 50px;
+}
+
+.main-icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
 .main-text {
   position: absolute;
   top: 20%;
-  left: 12%;
+  left: 8%;
 }
 
 .main-button {
   position: absolute;
-  top: 30%;
-  left: 16.5%;
+  top: 37%;
+  left: 13%;
   margin: 5px;
+}
+
+.Test-button {
+  font-size: 24px;
+  width: 250px;
+  height: 60px;
+  border: none;
+  background-color: #007acc;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.Test-button:hover {
+  background-color: #2f6d96;
+}
+
+.Test-button:active {
+  background-color: #007acc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-img {
@@ -128,18 +189,8 @@ main {
   height: 400px;
 }
 
-.download-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #fff;
-  color: #007acc;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.download-button:hover {
-  background-color: #ddd;
+.img-section4 {
+  padding: 5px;
 }
 
 footer {
