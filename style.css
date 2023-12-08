@@ -1,0 +1,139 @@
+@import '_mixins';
+@import '_reset';
+@import '_variables';
+
+/* Reset CSS e Importações */
+
+/* Estilos Gerais */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c2a454;
+    margin-top: 40px; 
+	overflow: hidden;
+}
+
+/* Barra de Navegação */
+.main-nav-bar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main-nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-nav-bar li {
+    display: inline-block;
+}
+
+.main-nav-bar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-icon {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+/* Corpo Principal */
+    
+.main-body {
+  
+    justify-content: center;
+    align-items: center;
+    height: calc(400vh - 50px); 
+    margin-top: 50px;
+}
+        .activity-field {
+            border: 1px solid white;
+            padding: 10px;
+            color: white;
+        }
+/* Tabela Geral */
+.table-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.general-table {
+    height: 520px;
+    width: 484px;
+    border-radius: 5px;
+    background-color: #272525;
+    padding: 20px;
+    border: 3px solid #333;
+    display: inline-block;
+	
+}
+
+
+.second-nav-bar {
+    position: relative;
+    background-color: #dfb135;
+    color: #fff;
+    padding: 20px;
+    width: 90%;
+    float: right;
+    right: 0px;
+}
+.main-side-navbar {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    top: 44px;
+    background-color: #272525;
+    padding: 5px;
+}
+.table-side-navbar {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px;
+	color: white;
+}
+.table-side-navbar li {
+    margin-bottom: 10px;
+    color: white;
+ 
+    text-decoration: none;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sec-nav-h1{
+    color: black;
+    text-align: center;
+}

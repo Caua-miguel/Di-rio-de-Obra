@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de Atividades e Tarefas</title>
+</head>
+
+<body>
+
+    <div class="activities-container">
+
+        <div class="activities-title">Registro de Atividades e Tarefas</div>
+
+        <nav class="main-nav-bar">
+            <ul>
+                <li><img class="main-icon" src="C:\Users\edber\OneDrive\Área de Trabalho\Diario-de-Obra-update-index\src\png\Icones\capacete.png" ></li>
+                <li><a href="#"><span>ConstTracker</span></a></li>
+                <li><a href="#section1">Seção 1</a></li>
+                <li><a href="#section2">Seção 2</a></li>
+                <li><a href="#section3">Seção 3</a></li>
+            </ul>
+         </nav>
+
+      
+        <div class="main-body">
+            <nav class="main-side-navbar">
+                <div class="primary-section-sidenavbar">
+                    
+                    <h2 class="txt-side-navbar">Área de trabalho</h2>
+                </div>
+                <div class="table-side-navbar">
+                    <li id="side-navbar-li-1"><a href="file:///C:/Users/edber/OneDrive/%C3%81rea%20de%20Trabalho/Diario-de-Obra-update-index/src/index.html#section3">Informações Gerais</a></li>
+                    <li id="side-navbar-li-2"><a href="file:///C:/Users/edber/OneDrive/%C3%81rea%20de%20Trabalho/Atividades%20e%20Tarefas.html">Registro Diário de Obra</a></li>
+                    <li id="side-navbar-li-3"><a href="">Atividades e Tarefas</a></li>
+                    <li id="side-navbar-li-4"><a href="">Materiais e Ocorrências</a></li>
+                </div>
+         
+        </nav>
+
+        <div class="main-body">
+            <div class="table-container">
+                <table class="general-table">
+                    <tr>
+                        <td class="activity-field">
+                            <label for="network-extension">Extensão de rede executada (em metros):</label>
+                            <input type="number" id="network-extension">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <label for="material-used">Material utilizado para extensão:</label>
+                            <input type="text" id="material-used">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <label for="pavement-info">Pavimentação:</label>
+                            <input type="text" id="pavement-info">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <label for="interruption">Interrupção no abastecimento de água ou coleta de esgoto sanitário?</label>
+                            <div class="yes-no-field">
+                                <label for="interruption-yes">Sim</label>
+                                <input type="radio" id="interruption-yes" name="interruption" value="yes">
+                                <label for="interruption-no">Não</label>
+                                <input type="radio" id="interruption-no" name="interruption" value="no">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <label>EPCs utilizados no dia:</label>
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-exaustores" name="epcs" value="exaustores">
+                                <label for="epc-exaustores">Exaustores para gases e vapores</label>
+                            </div>
+
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-placas" name="epcs" value="placas-sinalizadoras">
+                                <label for="epc-placas">Placas sinalizadoras</label>
+                            </div>
+
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-piso" name="epcs" value="piso-antiderrapante">
+                                <label for="epc-piso">Piso antiderrapante</label>
+                            </div>
+
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-sistema" name="epcs" value="sistema-purificacao-ar">
+                                <label for="epc-sistema">Sistema de purificação do ar</label>
+                            </div>
+
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-protetor" name="epcs" value="protetor-partes-moles">
+                                <label for="epc-protetor">Protetor de partes moles das máquinas</label>
+                            </div>
+
+                            <div class="epc-checkbox">
+                                <input type="checkbox" id="epc-enclausuramento" name="epcs" value="enclausuramento">
+                                <label for="epc-enclausuramento">Enclausuramento</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <label for="pdst-number">Número da PDST:</label>
+                            <input type="text" id="pdst-number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="activity-field">
+                            <button type="button" onclick="salvarDados()">Salvar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
